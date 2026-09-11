@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.app-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #82bef3; 
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 15px;
+}
+
+
+.form-container {
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 16px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 500px;
+  
+}
+
+
+.form-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 28px;
+  color: #7928ca;
+}
+
+
+.form-group {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #2d3748;
+  font-size: 14px;
+}
+
+
+.form-input, .form-select, .form-textarea {
+  padding: 12px;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.3s ease;
+  background-color: #f7fafc;
+}
+
+
+
+
+
+.error-text {
+  color: #e53e3e;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+
+.submit-btn {
+  background: blue;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+
+
+.submit-btn:disabled {
+  background: #cbd5e0;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+
+.success-message {
+  background-color: #d1fae5;
+  color: #065f46;
+  border-left: 5px solid #10b981;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+
+.error-message {
+  background-color: #fee2e2;
+  color: #991b1b;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
